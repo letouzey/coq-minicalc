@@ -1,0 +1,6 @@
+
+Parser.v : Parser.vy
+	menhir --coq $<
+
+clean::
+	rm Parser.v
